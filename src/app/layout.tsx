@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${karla.className} antialiased bg-zinc-300 flex justify-center min-h-screen py-8 px-3 pb-20`}
+        className={`${karla.className} antialiased bg-zinc-300 flex justify-center min-h-screen py-8 px-2 xl:px-[150px] pb-20`}
       >
         {children}
       </body>
